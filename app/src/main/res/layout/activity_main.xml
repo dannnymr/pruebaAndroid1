@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <RelativeLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:layout_editor_absoluteX="1dp"
+        tools:layout_editor_absoluteY="1dp">
+
+        <!--android:layout_centerVertical="true"-->
+
+
+        <Button
+            android:id="@+id/btnIncrementa"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="incrementa"
+            android:text="Incrementa"
+            android:layout_centerVertical="true"
+            android:layout_centerHorizontal="true"
+            />
+
+    <Button
+        android:id="@+id/btnResetear"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="130dp"
+        android:onClick="resetear"
+        android:text="RESETEA" />
+
+    <Button
+            android:id="@+id/btnDecrementa"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="decrementa"
+            android:text="DECREMENTA"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="320dp"/>
+
+    <TextView
+        android:id="@+id/txtResultado"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="48dp"
+        android:text="Contrador:0"
+        android:textSize="21dp" />
+
+
+</RelativeLayout>
+
+
